@@ -51,8 +51,10 @@
 		4F05FD4F278563DC00EC7C1D /* RecipeSaver */ = {
 			isa = PBXGroup;
 			children = (
+				4F05FD602785646400EC7C1D /* View */,
+				4F05FD5F2785646100EC7C1D /* Model */,
+				4F05FD5E2785645900EC7C1D /* ViewModel */,
 				4F05FD50278563DC00EC7C1D /* RecipeSaverApp.swift */,
-				4F05FD52278563DC00EC7C1D /* ContentView.swift */,
 				4F05FD54278563DD00EC7C1D /* Assets.xcassets */,
 				4F05FD56278563DD00EC7C1D /* Preview Content */,
 			);
@@ -65,6 +67,52 @@
 				4F05FD57278563DD00EC7C1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F05FD5E2785645900EC7C1D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4F05FD5F2785646100EC7C1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F05FD602785646400EC7C1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F05FD612785646900EC7C1D /* Main */,
+				4F05FD632785648600EC7C1D /* Detail */,
+				4F05FD622785647F00EC7C1D /* Component */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F05FD612785646900EC7C1D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4F05FD52278563DC00EC7C1D /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4F05FD622785647F00EC7C1D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		4F05FD632785648600EC7C1D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
